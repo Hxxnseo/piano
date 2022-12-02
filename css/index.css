@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  /* padding-top: 100px; */
+}
+
+.keyBoard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 1000px; */
+  height: 500px;
+  /* background-color: aqua; */
+  transform: translate(-50%, -50%);
+}
+
+.keyBoard h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.keyBoard ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.keyBoard ul li {
+  /* width: auto; */
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  /* line-height: 500px; */
+
+  border: 1px solid black;
+  border-right: 0;
+}
+
+.keyBoard ul li:nth-child(3) {
+  border-left: 0;
+}
+
+.keyBoard ul li:nth-child(5) {
+  border-left: 0;
+}
+
+.keyBoard ul li:nth-child(8) {
+  border-left: 0;
+}
+
+.keyBoard ul li:nth-child(10) {
+  border-left: 0;
+}
+
+.keyBoard ul li:last-child {
+  border-left: 0;
+  border-right: 1px solid black;
+}
+.key {
+  width: 70px;
+}
+#Keys {
+  flex-direction: column;
+  /* width: 1100px; */
+  width: 50px;
+  height: 500px;
+}
+
+#Keyc {
+  width: 50px;
+
+  height: 65%;
+  border: 0;
+  background-color: black;
+}
+
+#Keylr {
+  width: 50px;
+
+  height: 35%;
+  border: 0;
+}
+
+#Keyl,
+#Keyr {
+  width: 25px;
+  height: 100%;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+#Keyl {
+  border-right: 1px solid black;
+}
