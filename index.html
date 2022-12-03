@@ -4,64 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <script src="./js/index.js"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <h1>You can be the world class Pianist!</h1>
+      <h1>You can be the world-class Pianist!</h1>
 
+      <div class="playingNote"></div>
       <div class="keyBoard">
-        <div class="note"></div>
-        <ul>
-          <li class="key">도</li>
-          <ul id="Keys">
-            <li id="Keyc">도#</li>
-            <ul id="Keylr">
-              <li id="Keyl">도</li>
-              <li id="Keyr">레</li>
-            </ul>
-          </ul>
-          <li class="key">레</li>
-          <ul id="Keys">
-            <li id="Keyc">레#</li>
-            <ul id="Keylr">
-              <li id="Keyl">레</li>
-              <li id="Keyr">미</li>
-            </ul>
-          </ul>
-          <li class="key">미</li>
-          <li class="key">파</li>
-          <ul id="Keys">
-            <li id="Keyc">파#</li>
-            <ul id="Keylr">
-              <li id="Keyl">파</li>
-              <li id="Keyr">솔</li>
-            </ul>
-          </ul>
-          <li class="key">솔</li>
-          <ul id="Keys">
-            <li id="Keyc">솔#</li>
-            <ul id="Keylr">
-              <li id="Keyl">솔</li>
-              <li id="Keyr">라</li>
-            </ul>
-          </ul>
-          <li class="key">라</li>
-          <ul id="Keys">
-            <li id="Keyc">라#</li>
-            <ul id="Keylr">
-              <li id="Keyl">라</li>
-              <li id="Keyr">시</li>
-            </ul>
-          </ul>
-          <li class="key">시</li>
-        </ul>
-
-        <div></div>
+        <div data-key="65" data-note="도" class="key White"><p>A</p></div>
+        <div data-key="87" data-note="도#" class="key Black"><p>W</p></div>
+        <div data-key="83" data-note="레" class="key White"><p>S</p></div>
+        <div data-key="69" data-note="레#" class="key Black"><p>E</p></div>
+        <div data-key="68" data-note="미" class="key White"><p>D</p></div>
+        <div data-key="70" data-note="파" class="key White"><p>F</p></div>
+        <div data-key="84" data-note="파#" class="key Black"><p>T</p></div>
+        <div data-key="71" data-note="솔" class="key White"><p>G</p></div>
+        <div data-key="89" data-note="솔#" class="key Black"><p>Y</p></div>
+        <div data-key="72" data-note="라" class="key White"><p>H</p></div>
+        <div data-key="85" data-note="라#" class="key Black"><p>U</p></div>
+        <div data-key="74" data-note="시" class="key White"><p>J</p></div>
+        <div data-key="75" data-note="도" class="key White"><p>K</p></div>
+        <div data-key="79" data-note="도#" class="key Black"><p>O</p></div>
+        <div data-key="76" data-note="레" class="key White"><p>L</p></div>
+        <div data-key="80" data-note="레#" class="key Black"><p>P</p></div>
+        <div data-key="186" data-note="미" class="key White"><p>;</p></div>
       </div>
+
+      <audio data-key="65" src="./sound/1.wav"></audio>
+      <audio data-key="87" src="./sound/2.wav"></audio>
+      <audio data-key="83" src="./sound/3.wav"></audio>
+      <audio data-key="69" src="./sound/4.wav"></audio>
+      <audio data-key="68" src="./sound/5.wav"></audio>
+      <audio data-key="70" src="./sound/6.wav"></audio>
+      <audio data-key="84" src="./sound/7.wav"></audio>
+      <audio data-key="71" src="./sound/8.wav"></audio>
+      <audio data-key="89" src="./sound/9.wav"></audio>
+      <audio data-key="72" src="./sound/10.wav"></audio>
+      <audio data-key="85" src="./sound/11.wav"></audio>
+      <audio data-key="74" src="./sound/12.wav"></audio>
+      <audio data-key="75" src="./sound/13.wav"></audio>
+      <audio data-key="79" src="./sound/14.wav"></audio>
+      <audio data-key="76" src="/sound/15.wav"></audio>
+      <audio data-key="80" src="./sound/16.wav"></audio>
+      <audio data-key="186" src="./sound/17.wav"></audio>
     </div>
   </body>
+  <script src="./js/index.js"></script>
 </html>
