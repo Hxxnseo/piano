@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+  font-family: "Lato-Black";
+  src: url(../font/Lato-Black.woff);
+}
 
 * {
   margin: 0;
@@ -8,7 +12,7 @@
 
 html,
 body {
-  font: 16px "맑은 고딕";
+  font: 16px "Lato-Black";
   color: #333;
 }
 
