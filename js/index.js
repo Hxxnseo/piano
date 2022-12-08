@@ -9,6 +9,9 @@ window.onload = function () {
     if (audio) {
       const keyNote = key.getAttribute("data-note");
 
+      console.log(key);
+      console.log(key.dataset.key);
+
       key.classList.add("playing");
 
       nowNote.innerHTML = keyNote;
