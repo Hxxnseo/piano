@@ -1,6 +1,10 @@
 # Piano
 
 
+
+https://user-images.githubusercontent.com/97536033/214995801-2f850da4-b68d-49e6-8c9f-a3dbd7a81a43.mp4
+
+
 ## 작업기간
 
 > 2022.12.01 ~ 2022.12.07 (1주일)
